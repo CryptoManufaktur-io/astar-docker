@@ -13,7 +13,7 @@ The `./astard` script can be used as a quick-start:
 
 `cp default.env .env`
 
-Then `nano .env` and set the `NODE_NAME` and `SERVER_IP`, and adjust `DOCKER_TAG` and `CHAIN` if desired.
+Then `nano .env` and set the `NODE_NAME` and `SERVER_IP`, and adjust `DOCKER_TAG` and `NETWORK` if desired.
 
 `./astard up`
 
