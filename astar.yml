@@ -31,10 +31,8 @@ services:
       - ${NETWORK}
       - --name
       - ${NODE_NAME}
-      - --state-pruning
-      - "256"
-      - --blocks-pruning
-      - archive-canonical
+      - --pruning
+      - archive
       - --enable-evm-rpc
       - --rpc-port
       - ${RPC_PORT}
